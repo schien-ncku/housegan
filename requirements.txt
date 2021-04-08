@@ -11,3 +11,5 @@ webcolors == 1.11.1 (pip install webcolors)
 matplotlib == 3.2.1 (pip install matplotlib==3.2.1)
 torch == 1.5.0+cu101 (pip install torch==1.5.0; cu101?)
 torchvision == 0.6.0+cu101 (pip install torchvision==0.6.0; dependent on pillow 8.2.0)
+
+pycocotools == 2.0.2 (conda install -c conda-forge pycocotools; pip install failed)
