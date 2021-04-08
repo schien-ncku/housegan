@@ -1,13 +1,13 @@
 Pillow == 7.2.0
 imageio == 2.9.0
-networkx == 2.4
+networkx == 2.4 (pip install networkx==2.4)
 numpy == 1.18.3
-opencv-python == 4.4.0.42
-pygraphviz == 1.6
-scikit-image == 0.17.2
-scipy == 1.4.1
-svgwrite == 1.4
-webcolors == 1.11.1
-matplotlib == 3.2.1
-torch == 1.5.0+cu101
-torchvision == 0.6.0+cu101
+opencv-python == 4.4.0.42 (pip install opencv-python==4.4.0.42; dependent on numpy)
+pygraphviz == 1.6 (conda install has only 1.7 but numpy is upgraded; pip install failed)
+scikit-image == 0.17.2 (pip install scikit-image==0.17.2; dependent on matplotlib, imageio, networkx)
+scipy == 1.4.1 (pip install scipy==1.4.1; dependent on numpy)
+svgwrite == 1.4 (pip install svgwrite==1.4)
+webcolors == 1.11.1 (pip install webcolors)
+matplotlib == 3.2.1 (pip install matplotlib==3.2.1)
+torch == 1.5.0+cu101 (pip install torch==1.5.0; cu101?)
+torchvision == 0.6.0+cu101 (pip install torchvision==0.6.0; dependent on pillow 8.2.0)
